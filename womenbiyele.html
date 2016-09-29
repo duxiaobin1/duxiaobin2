@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/swiper.css">
+		<script type="text/javascript" src="js/rem.js"></script>
+		<script type="text/javascript" src="js/swiper.js"></script>
+		<script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<style>
+			*{padding:0; margin:0;}
+			html,body,.swiper-warper,.swiper-container,.swiper-slide{
+				width:100%;
+				height:100%;
+			}
+			.swiper-slide{position:relative;}
+			.swiper-slide1{
+				background:url(images/e63da14f-9a60-44ad-a118-e036ca751186.jpg);
+				-webkit-background-size:100% 100%;
+				background-size:100% 100%;
+				background-repeat:no-repeat;
+			}
+			.swiper-container{
+				position:relative;
+			}
+			.swiper-slide2{
+				background:url(images/2891b9ee-03c4-45a5-ba44-a266e959403f.jpg);
+				-webkit-background-size:100% 100%;
+				background-size:100% 100%;
+				background-repeat:no-repeat;
+			}
+			.swiper-slide3{
+				background:url(images/b4fa6e92-c522-46d8-9e8b-0b92d560347c.jpg);
+				-webkit-background-size:100% 100%;
+				background-size:100% 100%;
+				background-repeat:no-repeat;
+			}
+			.swiper-slide4{
+				background:url(images/e63da14f-9a60-44ad-a118-e036ca751186.jpg);
+				-webkit-background-size:100% 100%;
+				background-size:100% 100%;
+				background-repeat:no-repeat;
+			}
+			.swiper-slide5{
+				background-image:url(images/4b2fb6b5-6006-42f2-92d0-726cf42cad56.jpg);
+				-webkit-background-size:100% 100%;
+				background-size:100% 100%;
+				background-repeat:no-repeat;
+			}
+			.swiper-slide6{
+				background:url(images/e41fd832-cc86-4c96-8c03-205d268c0e8f.jpg);
+				-webkit-background-size:100% 100%;
+				background-size:100% 100%;
+				background-repeat:no-repeat;
+			}
+			.tu1{
+				width:6.5rem;
+				position:absolute;
+				top:2.5rem;
+				left:50%;
+				margin-left:-3.25rem;
+			}
+			.tu2{
+				width:13rem;
+				position:absolute;
+				top:6rem;
+				left:50%;
+				margin-left:-6.5rem;
+			}
+			.tu3{
+				position:absolute;
+				bottom:0;	
+				width:100%;
+			}
+			.p1{
+				width:12.25rem;
+				position:absolute;
+				top:10rem;
+				left:3.0rem;
+				font-size:18px;
+				line-height:1.5rem;
+			}
+			.tu4{
+				width:100%;
+				position:absolute;
+				top:0;
+			}
+			.odiv1{width:11.9rem;
+				font-size:18px;
+				position:absolute;
+				top:4.0rem;
+				left:50%;
+				margin-left:-6rem;
+				text-align:center;
+				line-height:1.5rem;
+			}
+			.tu5{
+				width:10rem;
+				position:absolute;
+				top:10.0rem;
+				left:50%;
+				margin-left:-5rem;	
+			}
+			.tu6{
+				width:10rem;
+				position:absolute;
+				top:17.5rem;
+				left:50%;
+				margin-left:-5rem;	
+			}
+			.odiv2{width:13.25rem;
+				font-size:14px;
+				position:absolute;
+				top:4.0rem;
+				left:50%;
+				margin-left:-6rem;
+				text-align:center;
+				line-height:1.5rem;
+			}
+			.tu7{
+				width:10rem;
+				position:absolute;
+				top:10.0rem;
+				left:50%;
+				margin-left:-5rem;		
+			}
+
+			.tu8{
+				width:10rem;
+				position:absolute;
+				top:17.5rem;
+				left:50%;
+				margin-left:-5rem;		
+			}
+			.odiv3{width:100%;
+				font-size:14px;
+				position:absolute;
+				top:2rem;
+				text-align:center;
+				line-height:1.5rem;
+			}
+			.tu9{
+				width:10rem;
+				position:absolute;
+				top:10.0rem;
+				left:5%;
+				
+			}
+			.tu10{
+				width:10rem;
+				position:absolute;
+				top:17.5rem;
+				right:5%;
+					
+			}
+			.tu11{
+				width:10.95rem;
+				position:absolute;
+				top:10rem;
+				left:50%;
+				margin-left:-5.5rem;		
+			}
+			.swiper-pagination{
+				position:absolute;
+				bottom:0;
+
+			}
+
+
+			.xiahu{
+			  background:url(img/units-icons.png) no-repeat -55px 0;
+			  width:55px;
+			  height:55px;
+			  bottom:20px;
+			  position:absolute;
+			  left:50%;
+			  margin-left:-27.5px;
+			  animation:xiahu 2s ease-in-out infinite;
+
+			}
+			@keyframes  xiahu {
+			    0%{ top:90%;
+			          opacity:0;       
+			    }
+			     50%{  top:88%;
+			          opacity:1; }
+			     100%{
+			          top:87%;
+			           opacity:0;
+			     }     
+			 }
+			 .play{
+				  position:absolute;
+				  top:1.25rem;
+				  right:1rem;
+				  width:55px;
+				  height:55px; 
+				  
+				}
+				.hahah{
+				  animation:zhuan2  2s linear infinite;
+				}
+				@keyframes zhuan2{
+				  from{transform:rotateZ(0);}
+				  to{transform:rotateZ(360deg);}
+				}
+				.play input{
+				  width:55px;
+				  height:55px;
+				  background:url(img/units-icons.png) no-repeat ;
+				  border:none;
+				  outline:none;
+				}
+
+		</style>
+	</head>
+	<body>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+
+					<div  class="swiper-slide  swiper-slide1">
+						<img class="ani tu1" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"
+						src="images/6f021f2a-3761-4862-ba7b-3fbb5544a527.png">
+						<img class="ani tu2"  swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"
+						src="images/a5f7720c-2ab2-44eb-96f5-189a9cce0158.png">
+						<img class="ani tu3"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"
+						src="images/cdb7b3b6-a825-4911-9645-e67aa80fa3e7.png">
+
+					</div>
+					<div  class="swiper-slide  swiper-slide2">
+						<img class="tu4 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"
+						src="images/1b14e121-2008-48b3-898b-fca50a8b7766.png">
+						<p class="ani p1" swiper-animate-effect="bounceIn" swiper-animate-duration="2s" swiper-animate-delay="1s">
+						四年前<br/>
+						我们刚刚踏进大学的时候<br/>
+						18岁的我们懵懵懂懂<br/>
+						虽然对于未来有无限的憧憬<br/>
+						却不知道能在这里学习到什么<br/>
+						收获到什么<br/>
+						幸好一路上有师长的谆谆教诲<br/>
+						</p>
+					</div>
+					<div  class="swiper-slide  swiper-slide3">
+						<div class="odiv1 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+							<p>那一年我们背着行囊</p>
+							<p>走进金秋九月的大学林荫小道</p>
+							<p>新生乍到的第一趟课就像昨天</p>
+						</div>
+						<img class="tu5 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="3s" swiper-animate-delay="0s"
+
+						src="images/a4dbfe87-24c8-4aeb-99b4-555ad2096204.jpg">
+						<img class="tu6 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="3s" swiper-animate-delay="0s" 
+						src="images/97f2cbe2-e209-4e04-a64f-16e1af0f83b3.jpg">
+					</div>
+					<div  class="swiper-slide  swiper-slide4">
+						<div class="odiv2 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+							<p>海棠开了又谢 也已四个春秋</p>
+							<p>也好从今天开始不用埋怨食堂的饭菜</p>
+							<p>如果食堂的饭菜...</p>
+						</div>
+						<img class="tu7 ani"  swiper-animate-effect="bounceInLeft" swiper-animate-duration="3s" swiper-animate-delay="0s"
+						src="images/ad7c7baa-e351-4eca-af6a-0cdd75caa785.jpg">
+						<img class="tu8 ani"  swiper-animate-effect="bounceInRight" swiper-animate-duration="3s" swiper-animate-delay="0s"
+						src="images/6dd3f4e4-69c2-48cb-bb32-77d309225809.jpg">
+					</div>
+					<div  class="swiper-slide  swiper-slide5">
+						<div class="odiv3 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+							<p>我知道</p>
+							<p>日后的你我不管受到多大的委屈</p>
+							<p></p>
+							<p>想到我挚爱的你(校园)啊</p>
+							<p>大学就是我们的青春 也是最美好的行囊</p>
+							<p>记录成长的地方 各位同学 我们珍重再见</p>
+						</div>
+						<img class="tu9 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="3s" swiper-animate-delay="0s"
+
+						src="images/91c478f3-6147-4d14-a6d8-b522734c267f.jpg">
+						<img class="tu10 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="3s" swiper-animate-delay="0s"
+						src="images/31404255-1794-4211-936f-0b73c4cdab39.jpg">
+					</div>
+					<div  class="swiper-slide  swiper-slide6">
+						<img src="images/fb9973a4-4382-44bb-a6bd-23cfa9acc803.png" class="ani tu11" swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="0.5s">
+					</div>
+				</div>
+				   <div class="swiper-pagination">
+						
+				    </div>
+				    <div class="play hahah" style="z-index:2000">
+       				      <input type="button" value=""/>
+  					</div>
+  					<audio id="aud">
+        				<source id="hah" src="audio/BY2 - 爱上你.mp3"></source>
+    				</audio>
+    				<div class="xiahu" style="z-index:2000"></div>
+			</div>
+
+	</body>
+	<script>
+		 var mySwiper = new Swiper('.swiper-container',{
+		 		direction:"vertical",
+		 		onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+          			swiperAnimateCache(swiper); //隐藏动画元素 
+          			swiperAnimate(swiper); //初始化完成开始动画
+     				 }, 
+     			 onSlideChangeEnd: function(swiper){ 
+         			 swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+    				 },
+    			 pagination :'.swiper-pagination',
+    			 mode:'vertical',
+    			 paginationType:"progress"
+		 })
+		  var aud=document.getElementById('aud')
+			  var btn=document.getElementsByTagName('input')
+			        aud.play()
+			        btn[0].onclick=function(){
+			        if(aud.paused){
+			         $(".play").addClass("hahah")
+			          aud.play()
+			        }else{
+			          aud.pause()
+			         $(".play").removeClass("hahah")
+			        }
+			      }
+	</script>
+</html>
